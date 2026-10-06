@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Explorer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <h1>City Explorer</h1>
+        <nav class="menu">
+            <a href="#destinatii">Destinații</a>
+            <a href="#planifica">Planifică</a>
+            <a href="#recomandari">Recomandări</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="destinatii">
+            <h2>Destinații Populare</h2>
+            <div class="cards">
+                <article class="card featured">
+                    <h3>Paris</h3>
+                    <p><strong>Țara:</strong> Franța</p>
+                    <p>Orașul luminilor, faimos pentru Turnul Eiffel, muzee de artă și croaziere romantice pe Sena.</p>
+                    <p><em>Durata recomandată: 4 zile</em></p>
+                </article>
+
+                <article class="card">
+                    <h3>Roma</h3>
+                    <p><strong>Țara:</strong> Italia</p>
+                    <p>O capitală istorică vibrantă, unde poți explora Colosseumul și te poți bucura de paste delicioase.</p>
+                    <p><em>Durata recomandată: 3 zile</em></p>
+                </article>
+
+                <article class="card">
+                    <h3>Tokyo</h3>
+                    <p><strong>Țara:</strong> Japonia</p>
+                    <p>O metropolă fascinantă unde tradiția templelor străvechi se întâlnește cu tehnologia modernă.</p>
+                    <p><em>Durata recomandată: 7 zile</em></p>
+                </article>
+
+                <article class="card">
+                    <h3>Barcelona</h3>
+                    <p><strong>Țara:</strong> Spania</p>
+                    <p>Cunoscută pentru arhitectura unică a lui Gaudí, parcuri colorate și plaje însorite la Marea Mediterană.</p>
+                    <p><em>Durata recomandată: 5 zile</em></p>
+                </article>
+
+                <article class="card">
+                    <h3>Reykjavik</h3>
+                    <p><strong>Țara:</strong> Islanda</p>
+                    <p>Punctul perfect de plecare pentru a vedea peisaje vulcanice, cascade spectaculoase și aurora boreală.</p>
+                    <p><em>Durata recomandată: 5 zile</em></p>
+                </article>
+            </div>
+        </section>
+
+        <section id="planifica">
+            <h2>Planifică excursia</h2>
+            <form action="#" method="get" class="booking-form">
+                <label for="name">Nume</label>
+                <input id="name" name="name" type="text" placeholder="Introdu numele tău" required>
+
+                <label for="destination">Destinație</label>
+                <select id="destination" name="destination" required>
+                    <option value="">Alege...</option>
+                    <option value="Paris">Paris</option>
+                    <option value="Roma">Roma</option>
+                    <option value="Tokyo">Tokyo</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Reykjavik">Reykjavik</option>
+                </select>
+
+                <label for="days">Număr de zile</label>
+                <input id="days" name="days" type="number" min="1" placeholder="Ex: 3" required>
+
+                <button type="submit">Planifică excursia</button>
+            </form>
+        </section>
+
+        <section id="recomandari">
+            <h2>Recomandări de călătorie</h2>
+            <ul>
+                <li>Fă-ți întotdeauna o asigurare de călătorie înainte de plecare pentru a evita cheltuieli neprevăzute.</li>
+                <li>Împachetează haine în straturi pentru a te adapta rapid la schimbările de vreme, mai ales în destinații imprevizibile.</li>
+                <li>Păstrează copii digitale ale documentelor importante (pașaport, bilete) pe telefon sau în cloud.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Schnier Jan Luca, 2026</p>
+    </footer>
+
+</body>
+</html>
