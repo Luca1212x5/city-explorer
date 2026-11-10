@@ -82,3 +82,75 @@ button {
 .card.vizitat button {
   background: #16a34a;
 }
+
+.card .sterge,
+.card.vizitat .sterge {
+  background: #dc2626;
+}
+/* Stiluri pentru Exercițiul 3d */
+.stare {
+  padding: 1rem;
+  border-radius: 8px;
+  background: #e0f2fe;
+  color: #0369a1;
+}
+
+.stare.eroare {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.formular input.invalid {
+  border-color: #ef4444;
+  background: #fef2f2;
+}
+
+.eroare-camp {
+  margin: 0.2rem 0 0 0;
+  font-size: 0.85rem;
+  color: #ef4444;
+}
+
+button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+.gol {
+  padding: 2.5rem 1rem;
+  border: 2px dashed #d1d5db;
+  border-radius: 10px;
+  text-align: center;
+  color: #6b7280;
+}
+/* Exercițiul 4 - Panou Statistici (Varianta cu greșeli) */
+.panou {
+  margin-bottom: 1.4rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid #d8dbe0;
+  border-radius: 10px;
+}
+.panou h2 {
+  margin-bottom: 0.6rem;
+  font-size: 1.1rem;
+}
+.panou label {
+  font-size: 0.9rem;
+  color: #4b5563;
+}
+.panou input {
+  width: 70px;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid #c3c7cf;
+  border-radius: 6px;
+  font: inherit;
+}
+.panou ul {
+  margin: 0.7rem 0 0 0;
+  padding-left: 1.1rem;
+  color: #4b5563;
+  font-size: 0.95rem;
+}
+.panou h2 {
+  margin: 0;
+}
